@@ -1,6 +1,8 @@
 # iTieProbe
 Testing of vulnerabilities in IoT devices in the Provisioning Phase
 
+<img src="https://github.com/iotsecurelab/iTieProbe/blob/main/images/setup.jpg" width="500px">
+
 
 **Features:**
 
