@@ -31,6 +31,12 @@ pip install scapy
 sudo ./itieprobe/device1/[<vulnerability directory>]/<code.py> file1.pcapng 
 ```
 
+- Purported IoT (V6)
+- First, run the evil twin and then run the DHCP configuration
+```
+sudo ./itieprobe/device1/[<vulnerability directory>]/<code.sh> 
+```
+
 - Replaced Token (V5)
 ```
 sudo ./itieprobe/device1/[<vulnerability directory>]/<code.py> file1.pcapng file2.pcapng
