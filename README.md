@@ -23,6 +23,10 @@ pip install scapy
 ```
 - sudo apt-get install -y aircrack-ng
 ```
+- (ISC-DHCP Software)
+```
+sudo apt-get install isc-dhcp-server
+```
 
 ## Run
 
