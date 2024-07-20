@@ -32,9 +32,13 @@ sudo ./itieprobe/device1/[<vulnerability directory>]/<code.py> file1.pcapng
 ```
 
 - Purported IoT (V6)
-- First, run the evil twin and then run the DHCP configuration
+
 ```
-sudo ./itieprobe/device1/[<vulnerability directory>]/<code.sh> 
+First, run the evil twin and then run the DHCP configuration and use the monitor_mode bash script of utilities
+to bring the Wi-Fi adapter in monitor mode.
+cd itieprobe/device1/purported
+sudo bash evil_twin.sh [AP-SSID] [AP-MAC] [Channel] [Wi-Fi mon interface]
+sudo bash configure_dhcp.sh [DHCP-server-IP] [netmask]
 ```
 
 - Replaced Token (V5)
