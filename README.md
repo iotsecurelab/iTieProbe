@@ -24,7 +24,12 @@ pip install scapy
 
 ## Run
 
+- Credential Leakage (V1), Token Validity (V3), Spooky (V4), Injected Token (V6)
+```
+sudo ./itieprobe/device1/[<vulnerability directory>]/<code.py> file1.pcapng 
+```
+
 - Replaced Token (V5)
 ```
-sudo ./itieprobe/replace_token_v5/exploitation_code_v5.py replay_v5.pcapng 
+sudo ./itieprobe/device1/[<vulnerability directory>]/<code.py> file1.pcapng file2.pcapng
 ```
