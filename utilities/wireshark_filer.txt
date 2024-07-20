@@ -1,0 +1,1 @@
+(wlan.sa==58:20:59:17:59:d1 && wlan.ra==62:01:94:B9:23:EC or wlan.ra==ff:ff:ff:ff:ff:ff) or udp or tcp && !(wlan.fc.type_subtype==0x0004)
