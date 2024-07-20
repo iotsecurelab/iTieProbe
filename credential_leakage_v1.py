@@ -6,7 +6,7 @@ import time
 start = time.time() 
 
 #pkt = rdpcap("alexa_evil_twin_http_credential.pcap")
-pkt = rdpcap("check_legitimate.pcapng")
+pkt = rdpcap(sys.argv[1])
 for packet in pkt:
 	if(packet.haslayer("TCP")):
 		try:
