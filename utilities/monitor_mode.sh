@@ -6,8 +6,8 @@ if [ $# -ne 1 ]
     exit
 fi
 
-wi-fi_interface=$1
+wifi_interface=$1
 
-sudo ifconfig wi-fi_interface down
-sudo iwconfig wi-fi_interface mode monitor
-sudo ifconfig wi-fi_interface up
+sudo ifconfig $wifi_interface down
+sudo iwconfig $wifi_interface mode monitor
+sudo ifconfig $wifi_interface up
