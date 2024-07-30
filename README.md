@@ -54,10 +54,10 @@ sudo ./itieprobe/device1/[<vulnerability directory>]/<code.py> file1.pcapng
 
 - Replaced Token (V5) - In V5, assuming the attacker already had its authentication token. After running the script, it injects the crafted packet with the replaced legitimate token in the pcap for the exploitation.
 ```
-sudo ./itieprobe/device1/[<vulnerability directory>]/<code.py> file1.pcapng file2.pcapng
+sudo ./itieprobe/device1/replaced-token/exploitation_code_v5.py replaced_v5.pcapng legitimate_v5.pcapng
 ```
 - Injected Token (V6) - In V6, similar to V5, the script inject the attacker Home-AP credential.
 ```
-sudo ./itieprobe/device1/[<vulnerability directory>]/<code.py> file1.pcapng 
+sudo ./itieprobe/device1/injected-token/exploitation_v6.py injected_v6.pcapng 
 ```
 - Note: For V3-V6 exploitation, it is assumed that the Wi-Fi adapter and the device specific settings and the correct device is available to the attacker (tester). Otherwise the injected packets will only be printed on the terminal.
